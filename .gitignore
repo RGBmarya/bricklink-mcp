@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+.env
+.bricklink.json
+.DS_Store
+coverage/

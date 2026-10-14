@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "bricklink": {
+      "command": "node",
+      "args": ["dist/mcp/server.js"],
+      "cwd": "/absolute/path/to/bricklink-mcp",
+      "env": {
+        "BRICKLINK_CONSUMER_KEY": "YOUR_CONSUMER_KEY",
+        "BRICKLINK_CONSUMER_SECRET": "YOUR_CONSUMER_SECRET",
+        "BRICKLINK_TOKEN": "YOUR_TOKEN",
+        "BRICKLINK_TOKEN_SECRET": "YOUR_TOKEN_SECRET"
+      }
+    }
+  }
+}
